@@ -27,6 +27,8 @@ namespace Регулярные_выражения
                 "-4.750"
             };
 
+            //improve code style in Program.cs
+
             Regex reg = new Regex("^(([-]?((([0]|([1-9][0-9]*))[.](([0-9]+[1-9])|((([0-9]*)([(][0-9]+[)])?)))|([1-9]+))))|[0])$");
 
             for (int i = 0; i < data.Length; i++)
